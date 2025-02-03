@@ -1,0 +1,43 @@
+//===========================================================================================================================
+
+
+
+event ActiveTimerHighlight
+{
+}
+
+event ActiveTimerDim
+{
+}
+
+//===========================================================================================================================
+
+
+
+
+event DamagedPlayer{
+	Animate damage			Alpha		"255"				Linear 0.0 0.0	
+	Animate damage			Alpha		"255"				Linear 1.1 0.0	
+	Animate damage			Alpha		"0"				Linear 1.4 0.55	
+
+	Animate damages			Alpha		"255"				Linear 0.0 0.0	
+	Animate damages			Alpha		"255"				Linear 1.1 0.0	
+	Animate damages			Alpha		"0"				Linear 1.35 0.45	
+
+	Animate damage			fgcolor		"255 128 128 255"				Linear 0.0 0.0	
+	Animate damage			fgcolor		"tanlight"				Linear 0.0 0.1	
+}
+
+event HudCartAlarmPulse{}
+event HudCartAlarmPulseLoop{}
+event HudCartAlarmPulseStop{}
+event FlagOutline{}
+event CasualCategory_Checkbox_Hide{}
+event CasualCategory_Checkbox_Show{}
+event CasualCategory_Selected{}
+event CasualCategory_NotSelected{}
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
+event ControlPointIconShrink{}
+event ControlPointIconGrow{}
