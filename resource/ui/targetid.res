@@ -132,7 +132,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"m0refont14"
+		"font"										"hudfontsmall"
 		"fgcolor"  									"Health Numbers"
 	}
 
@@ -150,7 +150,7 @@
 		"proportionaltoparent"						"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"m0refont14"
+		"font"										"hudfontsmallblur"
 		"fgcolor"  									"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValue1"
@@ -167,7 +167,7 @@
 		"tall"			           					"40"
 		"visible"		           					"1"
 		"enabled"		           					"1"				// 0 to enable color change
-		"font"			           					"m0refont11"
+		"font"			           					"hudfontsmallest"
 		"labelText"		         					"%targetname%"
 		"textAlignment"		     					"center"
 		"disabledfgcolor2_override"					"White"
@@ -186,7 +186,7 @@
 		"tall"			           					"41"
 		"visible"		           					"1"
 		"enabled"		           					"1"				// 0 to enable color change
-		"font"			           					"m0refont11"
+		"font"			           					"hudfontsmallestblur"
 		"labelText"		         					"%targetname%"
 		"textAlignment"		     					"center"
 		"fgcolor"					"Black"

@@ -73,7 +73,7 @@
 
 	"Scoreboard"
 	{
-		"label"										"Scoreboard"
+		"label"										"minmode"
 		"command"									"engine toggle cl_hud_minmode"
 		"OnlyInGame"								"1"
 	}

@@ -105,22 +105,24 @@
 	"CMainTargetID"
 	{
 		"ypos"										"c45"
-		"tall"	 									"40"
-		"tall_minmode"	 							"40"
+		"tall"	 									"60"
+		"tall_minmode"	 							"60"
 	}
 
 	"CSpectatorTargetID"
 	{
 		"ypos"										"c68"
-		"tall"	 									"0"
-		"tall_minmode"	 							"0"
+		"tall"	 									"60"
+		"tall_minmode"	 							"60"
+		"wide" "640"
 	}
 
 	"CSecondaryTargetID"
 	{
 		"ypos"										"c68"
-		"tall"	 									"0"
-		"tall_minmode"	 							"0"
+		"tall"	 									"60"
+		"tall_minmode"	 							"60"
+		"wide" "640"
 	}
 
 	"BuildingAnchor"

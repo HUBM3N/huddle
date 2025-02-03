@@ -9,7 +9,7 @@
 		"visible" 		        					"1"
 		"enabled" 		        					"1"
 		"xpos"			          					"-5"
-		"ypos"			          					"15"
+		"ypos"			          					"rs2-30"
 		"wide"	 		          					"260"
 		"tall"	 		         					"120"
 		"PaintBackgroundType"						"2"
