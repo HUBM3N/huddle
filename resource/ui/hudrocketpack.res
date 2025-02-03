@@ -9,8 +9,10 @@
 
 	"ItemEffectMeter"
 	{
-		"xpos" "c-31"
-		"wide"										"30"
+		"xpos" "c-23"
+		"xpos_minmode" "c-31"
+		"wide"										"22"
+		"wide_minmode"										"30"
 	}
 
 	"ItemEffectMeter2"
@@ -21,7 +23,8 @@
 		"ypos"										"r115"
 		"ypos_minmode"										"r75"
 		"zpos"										"2"
-		"wide"										"30"
+		"wide"										"22"
+		"wide_minmode"										"30"
 		"tall"										"1"
 		"visible"									"1"
 		"enabled"									"1"

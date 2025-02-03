@@ -301,7 +301,7 @@
 			"fgcolor"		"TanLight"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1+9"
-			"ypos_minmode"			"3"
+			"ypos_minmode"			"-9"
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"31"

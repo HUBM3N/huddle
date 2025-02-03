@@ -2,53 +2,51 @@
 {
 	"HudKothTimeStatus"
 	{
-		"xpos"	"cs-0.5"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"
 
-		"blue_active_xpos"	"9999"	"blue_active_xpos_minmode"	"9999"
+		"blue_active_xpos"	"0"	"blue_active_xpos_minmode"	"0"
 
-		"red_active_xpos"	"9999"	"red_active_xpos_minmode"	"9999"
-		"if_match"
-		{
-			"ypos" "14"
-		}
+		"red_active_xpos"	"0"	"red_active_xpos_minmode"	"0"
 		
 	}
 
 	"BlueTimer"
 	{
 		"ControlName"	"CTFHudTimeStatus"	"fieldName"	"BlueTimer"
-		"xpos"	"rs1-2"
-		"ypos"	"-1"
+		"xpos"	"0"
+		"ypos"	"0"
 		"zpos"	"2"
-		"wide"	"40"
-		"tall"	"40"
+		"wide"	"f0"
+		"tall"	"f0"
 		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"	"fieldName"	"TimePanelValue"	
-			"xpos"	"cs-0.5"	"ypos"	"-2"	"zpos"	"3"	"wide"	"f0"	"tall"	"18"	"textAlignment"	"east"	"labelText"	"0:00"
-			"font"	"m0refont14"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
-			"fgcolor"	"HUDBlueTeam"
+			"xpos"	"cs-0.5-52"	"ypos"			"rs1+9"
+			"ypos_minmode"			"-9"	"zpos"	"3"	"wide"	"100"	"tall"	"31"	"textAlignment"	"east"	"labelText"	"0:00"
+			"font"	"timer"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+			"fgcolor"	"175 225 255 255"
 		}
 	}
 
 	"RedTimer"
 	{
 		"ControlName"	"CTFHudTimeStatus"	"fieldName"	"RedTimer"
-		"xpos"	"rs1-2"
-		"ypos"	"11"
+		"xpos"	"0"
+		"ypos"	"0"
 		"zpos"	"2"
-		"wide"	"40"
-		"tall"	"40"
+		"wide"	"f0"
+		"tall"	"f0"
 		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"	"fieldName"	"TimePanelValue"	
-			"xpos"	"cs-0.5"	"ypos"	"-2"	"zpos"	"3"	"wide"	"f0"	"tall"	"18"	"textAlignment"	"east"	"labelText"	"0:00"
-			"font"	"m0refont14"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
-			"fgcolor"	"HUDRedTeam"
+			"xpos"	"cs-0.5+52"	"ypos"			"rs1+9"
+			"ypos_minmode"			"-9"	"zpos"	"3"	"wide"	"100"	"tall"	"31"	"textAlignment"	"west"	"labelText"	"0:00"
+			"font"	"timer"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+			"fgcolor"	"255 175 175 255"
 		}
 	}
 }

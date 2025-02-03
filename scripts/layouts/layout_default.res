@@ -39,7 +39,7 @@
 	"HudKothTimeStatus"
 	{
 		"fieldName" 								"HudKothTimeStatus"
-		"visible" 									"0"
+		"visible" 									"1"
 		"enabled" 									"1"
 //		"xpos"										"c-100"
 //		"ypos"										"0"
@@ -51,7 +51,7 @@
 
 //		"red_active_xpos"							"106"
 //		"red_active_xpos_minmode"					"105"
-"alpha" "0"
+"alpha" "255"
 	}
 
 	"HudItemEffectMeter"
