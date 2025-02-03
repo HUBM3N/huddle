@@ -1,3 +1,5 @@
+pure bypass may be needed idk i havent tested
+
 minmode 0
 ![screenshot](https://i.imgur.com/UJSZztF.jpeg)
 minmode 1
