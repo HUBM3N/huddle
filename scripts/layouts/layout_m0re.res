@@ -175,7 +175,7 @@
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"LocalPlayerColor"	"75 75 75 255"
 
 		"BaseBackgroundColor"	"46 43 42 0"		[$WIN32]
 		"LocalBackgroundColor"	"255 255 255 128"	[$WIN32]
