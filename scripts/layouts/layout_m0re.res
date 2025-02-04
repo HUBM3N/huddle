@@ -104,7 +104,7 @@
 
 	"CMainTargetID"
 	{
-		"ypos"										"c45"
+		"ypos"										"c30"
 		"tall"	 									"60"
 		"tall_minmode"	 							"60"
 	}
