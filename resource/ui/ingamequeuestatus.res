@@ -46,7 +46,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"m0refont9"
+		"font"			"m0refont8"
 		"fgcolor_override"	"White"
 		"textAlignment"	"east"
 		"labelText"		"%queue_state%"

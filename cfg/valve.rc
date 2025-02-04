@@ -12,5 +12,5 @@ cl_show_market_data_on_items 2
 cl_hud_killstreak_display_time 0
 tf_scoreboard_ping_as_text 1
 
-hud_saytext_time 0
+//hud_saytext_time 0
 tf_hud_target_id_disable_floating_health 0
