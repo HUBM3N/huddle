@@ -15,6 +15,7 @@ event HudHealthBonusPulse
 //	Animate PlayerStatusHealthValueSpecgui 			FgColor 	"Health Buff Spec" 					Linear 	0.0 	0.0
 
 //	Animate PlayerStatusHealthValueShadowKiller 	FgColor 	"Health Buff Killer" 				Linear 	0.0 	0.0
+Animate PlayerStatusHealthValueShadow1 			FgColor 	"maintheme" 						Linear 	0.0 	0.0
 
 	RunEvent HudHealthBonusPulseLoop				0.4
 }
@@ -27,6 +28,7 @@ event HudHealthBonusPulseStop
 	Animate statusicon 			FgColor 	"Health Numbers" 					Linear 	0.0 	0.0
 
 	Animate PlayerStatusHealthValueShadow 			FgColor 	"Black" 							Linear 	0.0 	0.0
+	Animate PlayerStatusHealthValueShadow1 			FgColor 	"Black" 						Linear 	0.0 	0.0
 	Animate PlayerStatusHealthValue1 			FgColor 	"Health Numbers"  							Linear 	0.0 	0.0
 	Animate PlayerStatusHealthValueShadowExtra 		Alpha 		"0"									Linear 	0.0 	0.0
 

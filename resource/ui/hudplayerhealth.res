@@ -16,6 +16,7 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"255 128 128 255"
 	}	
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -32,6 +33,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+	}
+	"PlayerStatusHealthImageOver"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageOver"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"42"
+		"tall"			"42"
+		"wide_minmode"			"52"
+		"tall_minmode"			"52"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/over"
+		"drawcolor" "195 215 255 255"
+		"scaleImage"	"1"	
+		"alpha" "255"
+		"pin_to_sibling" "PlayerStatusHealthImage"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
@@ -94,7 +114,7 @@
 		"xpos_minmode"			"47"
 		"ypos"			"r58"	
 		"ypos_minmode"			"r62+1"
-		"zpos"			"5"
+		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"19"
 		"visible"		"1"
@@ -110,7 +130,7 @@
 		"fieldName"		"PlayerStatusHealthValueShadow"
 		"xpos"			"0"
 		"ypos"			"0"	
-		"zpos"			"5"
+		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"19"
 		"visible"		"1"
@@ -128,7 +148,7 @@
 		"fieldName"		"PlayerStatusHealthValueShadow1"
 		"xpos"			"0"
 		"ypos"			"0"	
-		"zpos"			"5"
+		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"19"
 		"visible"		"1"
